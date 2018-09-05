@@ -12,6 +12,7 @@
 		92786E8B2138994800FDAF2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92786E892138994800FDAF2E /* Main.storyboard */; };
 		92786E8D2138994B00FDAF2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92786E8C2138994B00FDAF2E /* Assets.xcassets */; };
 		92786E902138994B00FDAF2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92786E8E2138994B00FDAF2E /* LaunchScreen.storyboard */; };
+		92786E98213F118E00FDAF2E /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92786E97213F118E00FDAF2E /* Item.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		92786E8C2138994B00FDAF2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92786E8F2138994B00FDAF2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		92786E912138994B00FDAF2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92786E97213F118E00FDAF2E /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				92786E852138994800FDAF2E /* AppDelegate.swift */,
 				92786E872138994800FDAF2E /* TodoListViewController.swift */,
+				92786E97213F118E00FDAF2E /* Item.swift */,
 				92786E892138994800FDAF2E /* Main.storyboard */,
 				92786E8C2138994B00FDAF2E /* Assets.xcassets */,
 				92786E8E2138994B00FDAF2E /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				92786E882138994800FDAF2E /* TodoListViewController.swift in Sources */,
+				92786E98213F118E00FDAF2E /* Item.swift in Sources */,
 				92786E862138994800FDAF2E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
